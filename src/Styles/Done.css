@@ -1,0 +1,53 @@
+.footer {
+    padding: 30px 0px;
+    background: rgb(207, 204, 204);
+}
+
+.footer_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 1rem;
+}
+
+.footer_box {
+    width: 30%;
+}
+
+.footer_box li {
+    line-height: 1.5rem;
+}
+
+.footer_box h4 {
+    transition: ease-in .1s;
+}
+
+.footer_box h4:hover {
+    color: rgb(106, 56, 180);
+    cursor: pointer;
+}
+
+.footer_box p {
+    color: var(--heading-color);
+}
+
+.footer_title {
+    font-size: 1.2rem;
+    color: var(--heading-color);
+}
+
+.footer_links li {
+    line-height: 28px;
+}
+
+.footer_box li a:hover {
+    color: rgb(147, 85, 197);
+}
+
+.copy {
+    margin-top: 30px;
+    text-align: center;
+    color: rgb(22, 20, 24);
+    font-size: .9rem;
+    font-weight: bold;
+}
